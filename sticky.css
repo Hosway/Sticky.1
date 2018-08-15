@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #567181;
+}
+
+p {
+  color: white;
+  letter-spacing: 3px;
+  line-height: 26px;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: white;
+  font-weight: lighter;
+}
+header {
+  padding: 5px 50px;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh; 
+}
+
+.sec1 {
+  background: url(arches.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sec2 {
+  padding: 100px;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.sec3 {
+  background: url(utah.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background: #567181;
+  border-top: 1px solid #eff1f1;
+  border-bottom: 1px solid #eff1f1;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0 100px;
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+nav ul li a:hover,
+nav il li a.active {
+  background: rgb(158, 169, 173);
+}
